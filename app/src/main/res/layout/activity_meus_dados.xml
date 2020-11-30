@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackGround"
+    android:layout_height="match_parent"
+    tools:context=".view.MeusDados">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtMeusDados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/txtMeusDados"
+                android:textColor="@color/colorCadastro"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="83dp"
+                tools:layout_editor_absoluteY="10dp" />
+            <TextView
+                android:id="@+id/txtPrimeiroNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/txtPrimeiroNome"
+                android:textColor="@color/colorCadastro"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtHintPrimeiroNome"
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="@string/txtHintPrimeiroNome"
+                android:inputType="textPersonName"
+                android:textColor="@color/txtHintCamposCadastros"
+                android:textColorHint="@color/txtHintCamposCadastros" />
+
+            <TextView
+                android:id="@+id/txtSegundoNome"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/txtSegundoNome"
+                android:textColor="@color/colorCadastro"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtHintSegundoNome"
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="@string/txtHintSegundoNome"
+                android:inputType="textPersonName"
+                android:textColor="@color/txtHintCamposCadastros"
+                android:textColorHint="@color/txtHintCamposCadastros" />
+
+            <TextView
+                android:id="@+id/txtEmailCadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/txtEmailCadastro"
+                android:textColor="@color/colorCadastro"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtHintEmailCadastro"
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="@string/txtHintEmailCadastro"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/txtHintCamposCadastros"
+                android:textColorHint="@color/txtHintCamposCadastros" />
+
+            <TextView
+                android:id="@+id/txtSenhaCadstro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/txtSenhaCadastro"
+                android:textColor="@color/colorCadastro"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtHintSenhaCadastro"
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="@string/txtHintSenhaCadastro"
+                android:inputType="textPassword"
+                android:textColor="@color/txtHintCamposCadastros"
+                android:textColorHint="@color/txtHintCamposCadastros" />
+
+            <Button
+                android:id="@+id/btnVoltarMeusDados"
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:onClick="voltarMeusDados"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:text="@string/btnVoltarMeusDados" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

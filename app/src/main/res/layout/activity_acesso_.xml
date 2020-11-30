@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackGround"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:gravity="center_horizontal"
+    tools:context=".view.Acesso_Activity">
+
+    <TextView
+        android:id="@+id/txtBoasVindas"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorTxtApresentacao"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBoasVindas"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/btnMeusDados"
+        android:layout_marginTop="160dp"
+        android:textStyle="bold"
+        android:background="@color/colorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="meusDados"
+        android:text="@string/btnMeusDados" />
+
+    <Button
+        android:id="@+id/btnAtualizarDados"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:background="@color/colorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:onClick="atualizarDados"
+        android:layout_marginLeft="16dp"
+        android:text="@string/btnAtualizarDados" />
+    <Button
+        android:id="@+id/btnListarUsuarios"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:textStyle="bold"
+        android:onClick="listarClientes"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+
+        android:text="@string/btnListarUsuarios" />
+    <Button
+        android:id="@+id/btnExcluirDados"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="excluirConta"
+        android:textStyle="bold"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/btnExcluirDados" />
+
+
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:textStyle="bold"
+        android:onClick="sairAplicativo"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnSair" />
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

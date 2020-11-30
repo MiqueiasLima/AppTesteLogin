@@ -1,0 +1,39 @@
+<resources>
+    <!-- -->
+    <string name="app_name">AppTesteLogin</string>
+    <string name="txtAppLogin">Login App Teste</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtHintEmail">Digite seu email</string>
+    <string name="txtSenha">Senha</string>
+    <string name="txtHintSenha">Digite sua senha</string>
+    <string name="btnAcessar">Acessar</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="txtVersao">Versão 1.0</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtTelaCadastro">Cadastro</string>
+    <string name="txtPrimeiroNome">Primeiro Nome</string>
+    <string name="txtHintPrimeiroNome">Digite o primeiro nome</string>
+    <string name="txtSegundoNome">Segundo Nome</string>
+    <string name="txtHintSegundoNome">Digite o segundo nome</string>
+    <string name="txtEmailCadastro">Email</string>
+    <string name="txtHintEmailCadastro">Digite seu Email</string>
+    <string name="txtSenhaCadastro">Senha</string>
+    <string name="txtHintSenhaCadastro">Digite sua senha</string>
+    <string name="txtRepitaSenha">Repita Senha</string>
+    <string name="txtHintRepitaSenhaCadastro">Repita sua senha</string>
+    <string name="btnSalvarCadastro">Salvar</string>
+    <string name="btnVoltarCadastro">Voltar</string>
+    <string name="txtBoasVindas"><![CDATA[Bem vindo <Usuário>]]></string>
+    <string name="btnAtualizarDados">ATUALIZAR DADOS</string>
+    <string name="btnExcluirDados">EXCLUIR CONTA</string>
+    <string name="btnListarUsuarios">Listar Usuários</string>
+    <string name="btnSair">SAIR</string>
+    <string name="btnMeusDados">Meus Dados</string>
+    <string name="txtMeusDados">Meus Dados</string>
+    <string name="btnVoltarMeusDados">VOLTAR</string>
+    <string name="txtAtualizarDados">Atualizar Dados</string>
+    <string name="btnEditar">Editar</string>
+    <string name="btnSalvarEdicao">SALVAR</string>
+    <string name="txtHintRepitaSenhaAlterada">Repita sua senha</string>
+
+</resources>
